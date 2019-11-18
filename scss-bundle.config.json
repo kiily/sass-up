@@ -1,0 +1,7 @@
+{
+    "bundlerOptions": {
+        "entryFile": "./scss/_variables.scss",
+        "rootDir": "./scss/",
+        "outFile": "./dist/main.scss"
+    }
+}
