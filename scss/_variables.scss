@@ -1,0 +1,45 @@
+@import './functions';
+@import './mixins';
+@import './fonts/lato';
+
+// Fonts
+$font-m: 12px;
+$font-base: 16px;
+$font-l: 20px;
+
+$fonts-map: (
+  font-m: $font-m,
+  font-base: $font-base,
+  font-l: $font-l,
+);
+
+// PADDINGS
+$padding-5: 0.3125rem;
+$padding-10: 0.625rem;
+$padding-15: 1rem;
+$padding-20: 1.25rem;
+$padding-25: 1.5625rem;
+$padding-30: 1.875rem;
+$padding-35: 2.1875rem;
+
+$layout-map: (
+  padding-5: $padding-5,
+  padding-10: $padding-10,
+  padding-15: $padding-15,
+  padding-20: $padding-20,
+  padding-25: $padding-25,
+  padding-30: $padding-30,
+  padding-35: $padding-35,
+);
+
+// COLORS
+$light: #ffffff;
+$dark: #000000;
+
+$colors-map: (
+  light: $light,
+  dark: $dark,
+);
+
+$variables-map: map-merge($layout-map, $colors-map);
+$variables-map: map-merge($fonts-map, $variables-map);

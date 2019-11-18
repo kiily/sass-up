@@ -1,0 +1,17 @@
+{
+  "name": "sass-up",
+  "version": "1.0.0",
+  "description": "A library of sass variables and utility functions and mixins for personal web development projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "scss",
+    "sass",
+    "framework",
+    "variables"
+  ],
+  "author": "Miguel Marin Vermelho",
+  "license": "MIT"
+}
