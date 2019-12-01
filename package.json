@@ -1,17 +1,21 @@
 {
   "name": "sass-up",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A library of sass variables and utility functions and mixins for personal web development projects",
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "build": "scss-bundle"
+    "build": "scss-bundle",
+    "release": "npm run build && npm publish"
   },
   "keywords": [
     "scss",
     "sass",
     "framework",
     "variables"
+  ],
+  "files": [
+    "dist/"
   ],
   "author": "Miguel Marin Vermelho",
   "license": "MIT",
