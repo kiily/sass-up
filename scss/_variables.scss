@@ -35,10 +35,18 @@ $layout-map: (
 // COLORS
 $light: #ffffff;
 $dark: #000000;
+$primary: #1fb6ff;
+$success: #04cc99;
+$danger: #ff625f;
+$warning: #ff6402;
 
 $colors-map: (
   light: $light,
   dark: $dark,
+  primary: $primary,
+  success: $success,
+  danger: $danger,
+  warning: $warning
 );
 
 $variables-map: map-merge($layout-map, $colors-map);
