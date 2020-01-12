@@ -2,7 +2,7 @@
 @import './mixins';
 @import './fonts/lato';
 
-// Fonts
+/* FONTS */
 $font-m: 12px;
 $font-base: 16px;
 $font-l: 20px;
@@ -13,7 +13,7 @@ $fonts-map: (
   font-l: $font-l,
 );
 
-// PADDINGS
+/* PADDINGS */
 $padding-5: 0.3125rem;
 $padding-10: 0.625rem;
 $padding-15: 1rem;
@@ -32,7 +32,7 @@ $layout-map: (
   padding-35: $padding-35,
 );
 
-// COLORS
+/* COLORS */
 $light: #ffffff;
 $dark: #000000;
 $primary: #1fb6ff;

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "build": "scss-bundle && uglifycss --ugly-comments --max-line-len 500 dist/main.scss > dist/main.min.scss",
+    "build": "scss-bundle && uglifycss --cute-comments --max-line-len 500 dist/main.scss > dist/main.min.scss",
     "release": "npm run build && npm publish"
   },
   "keywords": [
