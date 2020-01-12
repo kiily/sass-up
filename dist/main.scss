@@ -11,6 +11,13 @@
   align-items: center;
 }
 
+@mixin fit-image() {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 @font-face {
   font-family: 'Lato';
   font-style: normal;
@@ -67,10 +74,18 @@ $layout-map: (
 // COLORS
 $light: #ffffff;
 $dark: #000000;
+$primary: #1fb6ff;
+$success: #04cc99;
+$danger: #ff625f;
+$warning: #ff6402;
 
 $colors-map: (
   light: $light,
   dark: $dark,
+  primary: $primary,
+  success: $success,
+  danger: $danger,
+  warning: $warning
 );
 
 $variables-map: map-merge($layout-map, $colors-map);
