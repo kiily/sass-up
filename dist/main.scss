@@ -52,23 +52,26 @@ $fonts-map: (
   font-l: $font-l,
 );
 
-/* PADDINGS */
-$padding-5: 0.3125rem;
-$padding-10: 0.625rem;
-$padding-15: 1rem;
-$padding-20: 1.25rem;
-$padding-25: 1.5625rem;
-$padding-30: 1.875rem;
-$padding-35: 2.1875rem;
+/* SPACINGS */
+$spacing-5: 0.3125rem;
+$spacing-10: 0.625rem;
+$spacing-15: 1rem;
+$spacing-20: 1.25rem;
+$spacing-25: 1.5625rem;
+$spacing-30: 1.875rem;
+$spacing-35: 2.1875rem;
+$spacing-40: 2.5rem;
+$spacing-45: 2.8125rem;
+$spacing-50: 3.125rem;
 
 $layout-map: (
-  padding-5: $padding-5,
-  padding-10: $padding-10,
-  padding-15: $padding-15,
-  padding-20: $padding-20,
-  padding-25: $padding-25,
-  padding-30: $padding-30,
-  padding-35: $padding-35,
+  spacing-5: $spacing-5,
+  spacing-10: $spacing-10,
+  spacing-15: $spacing-15,
+  spacing-20: $spacing-20,
+  spacing-25: $spacing-25,
+  spacing-30: $spacing-30,
+  spacing-35: $spacing-35,
 );
 
 /* COLORS */
